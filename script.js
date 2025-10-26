@@ -1,3 +1,26 @@
+// === Load Navbar from External File ===
+document.addEventListener("DOMContentLoaded", () => {
+	fetch("navbar.html")
+		.then(response => response.text())
+		.then(data => {
+			document.getElementById("navbar-placeholder").innerHTML = data;
+		})
+		.catch(error => console.error("Error loading navbar:", error));
+});
+
+// === Load Contact Section from External File ===
+document.addEventListener("DOMContentLoaded", () => {
+	fetch("contact.html")
+		.then(response => response.text())
+		.then(data => {
+			const contactContainer = document.getElementById("contact-placeholder");
+			if (contactContainer) {
+				contactContainer.innerHTML = data;
+			}
+		})
+		.catch(error => console.error("Error loading contact section:", error));
+});
+
 // Smooth scroll for navigation
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 	anchor.addEventListener('click', function (e) {

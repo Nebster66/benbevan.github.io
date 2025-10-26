@@ -9,19 +9,8 @@
 </head>
 <body>
 	<header>
-		<nav class="navbar">
-			<div class="nav-left">
-				<img src="images/Logo2.jpg" alt="Ben Bevan Logo" class="nav-logo">
-				<h1 class="logo-text">Ben Bevan</h1>
-			</div>
-			<ul class="nav-links">
-				<li><a href="#about">About</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#cv">CV</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+        <div id="navbar-placeholder"></div>
+    </header>
 
     <section id="hero">
         <div class="hero-overlay"></div>
@@ -31,7 +20,7 @@
             </div>
             <div class="hero-text">
                 <h2>Hi, I’m Ben — a Game Developer</h2>
-                <p>Specialising in game design, skilled in Godot 4 and familiar with Unreal Engine 5.</p>
+                <p>Specialising in game design, skilled in Godot 4 and familiar with Unreal Engine 5. Currently Product Owner @ Wee Tattie Studios</p>
                 <div class="hero-buttons">
                     <a href="#projects" class="btn primary">View My Work</a>
                     <a href="#contact" class="btn highlight">Contact Me</a>
@@ -40,10 +29,49 @@
         </div>
     </section>
     
-	<section id="about" class="section">
-		<h2>About Me</h2>
-		<p>I’m a computer scientist turned game developer/designer based in South Wales, currently Product Owner at Wee Tattie Studios. My passion for gaming drives me to create my own games and pursue a career in the industry!</p>
-	</section>
+    <section id="about" class="section about-section">
+        <h2>About Me</h2>
+    
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/ProfilePortrait3.jpg" alt="Ben Bevan portrait">
+            </div>
+    
+            <div class="about-text">
+                <p>
+                    I’m a computer scientist turned game developer and designer based in South Wales, currently Product Owner at <strong>Wee Tattie Studios</strong>.
+                    My passion for gaming drives me to create my own games and pursue a career in the industry!
+                </p>
+                <p>
+                    I’ve been playing games for as long as I can remember — starting on the <strong>PS One</strong> and working through a variety of platforms.
+                    My curiosity for how games are made began when I bought my first PC at 11 and started creating games in <strong>Scratch</strong> and <strong>Kodu</strong>.
+                </p>
+                <p>
+                    That passion returned during university, where I taught myself <strong>Unreal Engine</strong> alongside my Computer Science studies and even used it in my dissertation and cybersecurity research role.
+                    After graduating, I joined the volunteer-driven <strong>Wee Tattie Studios</strong> as Lead Designer and Product Owner.
+                </p>
+                <p>
+                    In my personal projects, I love experimenting with ideas that combine mechanics from multiple favourite games into something new and unique.
+                </p>
+    
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <h3>3+ Years</h3>
+                        <p>Game Development Experience</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Godot & UE5</h3>
+                        <p>Engines of Expertise</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Product Owner</h3>
+                        <p>Wee Tattie Studios</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
 	<section id="projects" class="section">
 		<h2>Featured Projects</h2>
@@ -87,46 +115,38 @@
 		</div>
 	</section>
 
-	<section id="cv" class="section">
-		<h2>My CV</h2>
-		<p>You can view or download my CV below:</p>
-		<a href="BenBevanCV.pdf" class="btn primary" target="_blank">View CV</a>
-	</section>
+    <section id="experience" class="section experience-section">
+        <h2>Experience</h2>
+    
+        <div class="experience-list">
+            
+            <div class="experience-card">
+                <h3>Wee Tattie Studios</h3>
+                <p class="role">Lead Game Designer and Product Owner (UE5)</p>
+                <p class="date">Sep 2024 – Present</p>
+            </div>
 
-    <section id="contact" class="contact-section">
-        <h2>Contact Me</h2>
-        <h2>contact@benbevan.dev</h2>
-        <p>Alternatively, select a button below to redirect to one of my social medias.</p>
+            <div class="experience-card">
+                <h3>Wales Cyber Innovation Hub</h3>
+                <p class="role">Cyber Security Research Engineer (UE5, C++)</p>
+                <p class="date">Feb 2023 – Jun 2024</p>
+            </div>
     
-        <div class="contact-buttons">
-            <a href="mailto:contact@benbevan.dev" class="contact-btn">
-                <img src="images/4745721_bubble_connection_email_envelope_letter_icon.svg" alt="Email Icon">
-                <span>Email Me</span>
-            </a>
+            <div class="experience-card">
+                <h3>Cardiff University</h3>
+                <p class="role">BSc Computer Science (2:1)</p>
+                <p class="date">Oct 2021 – Jun 2024</p>
+            </div>
     
-            <a href="https://www.linkedin.com/in/benbevan" target="_blank" class="contact-btn">
-                <img src="images/5296501_linkedin_network_linkedin logo_icon.svg" alt="LinkedIn Icon">
-                <span>LinkedIn</span>
-            </a>
-    
-            <a href="https://github.com/Nebster66" target="_blank" class="contact-btn">
-                <img src="images/317712_code repository_github_repository_resource_icon.svg" alt="GitHub Icon">
-                <span>GitHub</span>
-            </a>
-            <a href="https://x.com/BenBevanDev" target="_blank" class="contact-btn">
-                <img src="images/5296514_bird_tweet_twitter_twitter logo_icon.svg" alt="Twitter Icon">
-                <span>Twitter</span>
-            </a>
-            <a href="https://bsky.app/profile/benbevan.dev" target="_blank" class="contact-btn">
-                <img src="" alt="Bluesky Icon">
-                <span>Bluesky</span>
-            </a>
-            <a href="http://www.youtube.com/@BenBevanDev" target="_blank" class="contact-btn">
-                <img src="images/5296521_play_video_vlog_youtube_youtube logo_icon.svg" alt="YouTube Icon">
-                <span>YouTube</span>
-            </a>
         </div>
-    </section>    
+    </section>
+    
+    <section id="cv" class="section cv-section">
+        <p>You can view or download my CV below:</p>
+        <a href="documents/BenBevanCV_070125.pdf" class="btn primary" target="_blank">View CV</a>
+    </section> 
+
+    <div id="contact-placeholder"></div>
 
 	<footer>
 		<p>© 2025 Ben Bevan. All rights reserved.</p>

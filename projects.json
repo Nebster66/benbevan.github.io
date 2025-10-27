@@ -1,0 +1,49 @@
+[
+	{
+		"id": "planet-looper",
+		"title": "Planet Looper",
+		"thumbnail": "images/GMTKPlanetLooperBranding.png",
+		"shortDescription": "A fast-paced, single-button arcade game with retro style graphics, made with Godot 4 in under 96 hours for the GMTK Game Jam 2025.",
+		"tags": ["Godot 4", "2D", "Pixel Art", "Puzzle", "Arcade", "Retro", "Mobile", "Touch", "One-Button"],
+		"year": 2025,
+		"coverImage": "images/GMTKPlanetLooperBranding.png",
+		"sections": [
+			{
+				"type": "intro",
+				"content": "Planet Looper is a rhythmic arcade game created in just 96 hours for the GMTK Game Jam 2025. The game challenges players to loop their orbit with perfect timing to collect energy and avoid crashing into hazards."
+			},
+			{
+				"type": "image",
+				"src": "images/planetlooper_gameplay1.png",
+				"caption": "Gameplay showing the main orbit loop mechanic."
+			},
+			{
+				"type": "three-image",
+				"images": [
+					"images/planetlooper_menu.png",
+					"images/planetlooper_loop.png",
+					"images/planetlooper_crash.png"
+				],
+				"caption": "Menus, gameplay loop, and failure screen."
+			},
+			{
+				"type": "text",
+				"title": "Design Process",
+				"content": "Planet Looper’s design focused on combining simple one-button control with increasing rhythmic tension. The entire project was built in Godot 4 with pixel art assets created in Aseprite."
+			},
+			{
+				"type": "embed",
+				"url": "https://itch.io/embed-upload/14600336?color=8476ad",
+				"caption": "Play the game directly below!"
+			}
+		]
+	},
+	{
+		"id": "swinghammer",
+		"title": "Swinghammer",
+		"thumbnail": "images/SwingHammerBanner.png",
+		"shortDescription": "Swinghammer is a 2D, physics-based hobby and job simulation game built in Godot 4.",
+		"tags": ["Godot 4", "2D", "Pixel Art,","Simulation", "Demo"],
+		"year": 2025
+	}
+]
